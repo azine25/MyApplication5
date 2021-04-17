@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application4</string>
+    <string name="Password">Забыли пороль?</string>
+    <string name="btn">Войти</string>
+    <string name="password">Введите пароль</string>
+    <string name="email">Введите вашу почту</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="s_u_n_r_i_s_e">S U N R I S E</string>
+</resources>
