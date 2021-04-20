@@ -10,8 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication4">
         <activity
+            android:name=".calcylatorModel"
+            android:label="@string/title_activity_calcylator_model"
+            android:theme="@style/Theme.MyApplication4.NoActionBar"></activity>
+        <activity android:name=".calculator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:windowSoftInputMode="stateVisible|adjustResize"            >
+            android:windowSoftInputMode="stateVisible|adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
